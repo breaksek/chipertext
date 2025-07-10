@@ -12,9 +12,9 @@ reset = '\033[0m'
 
 baru = f"""
   ┏━━━━━━⪻ RESULT ⪼━━━━━┓
-  ┃ Plaintext   ┃ {plainttext}
+  ┃ Plaintext   ┃ {plaintext}
   ┃ Kunci       ┃ {key_input}
-  ┃ Chippert    ┃ {chippertext}
+  ┃ Chippert    ┃ {chipertext}
   ┗━━━━━━━━━━━━━━━━━━━━━┛
 """
 
