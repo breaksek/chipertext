@@ -9,6 +9,15 @@ biru = '\033[94m'
 reset = '\033[0m'
 
 # banner tools
+
+baru = f"""
+  ┏━━━━━━⪻ RESULT ⪼━━━━━┓
+  ┃ Plaintext   ┃ {plainttext}
+  ┃ Kunci       ┃ {key_input}
+  ┃ Chippert    ┃ {chippertext}
+  ┗━━━━━━━━━━━━━━━━━━━━━┛
+"""
+
 banner = f"""{cyan}  ____ _     _                 _            _     _____           _       
  / ___| |__ (_)_ __   ___ _ __| |_ _____  _| |_  |_   _|__   ___ | |___   
 | |   | '_ \| | '_ \ / _ \ '__| __/ _ \ \/ / __|   | |/ _ \ / _ \| / __|  
@@ -51,3 +60,4 @@ if __name__ == "__main__":
     key_numbers = [int(x.strip()) for x in key_input.split(',')]
     ciphertext = encrypt_vigenere_numbers(plaintext, key_numbers)
     print(f" [{biru}•{reset}] Ciphertext :", ciphertext)
+    print(baru)
