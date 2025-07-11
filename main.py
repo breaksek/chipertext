@@ -52,4 +52,4 @@ if __name__ == "__main__":
     key_numbers = [int(x.strip()) for x in key_input.split(',')]
     ciphertext = encrypt_vigenere_numbers(plaintext, key_numbers)
     print(f" [{biru}•{reset}] Ciphertext :", ciphertext)
-    print("  ┏━━━━━━⪻ RESULT ⪼━━━━━┓"+f"\n  ┃ Plaintext   ┃ {plaintext}"+f"\n  ┃ Kunci       ┃ {key_input}"+f"\n  ┃ Chipertext    ┃ {ciphertext}"+"\n  ┗━━━━━━━━━━━━━━━━━━━━━┛")
+    print("  ┏━━━━━━━━⪻ RESULT ⪼━━━━━┓"+f"\n  ┃ Plaintext     ┃ {plaintext}"+f"\n  ┃ Kunci         ┃ {key_input}"+f"\n  ┃ Chipertext    ┃ {ciphertext}"+"\n  ┗━━━━━━━━━━━━━━━━━━━━━┛")
