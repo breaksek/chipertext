@@ -53,3 +53,8 @@ if __name__ == "__main__":
     ciphertext = encrypt_vigenere_numbers(plaintext, key_numbers)
     print(f" [{biru}•{reset}] Ciphertext :", ciphertext)
     print("  ┏━━━━━━━━⪻ RESULT ⪼━━━━━┓"+f"\n  ┃ Plaintext     ┃ {plaintext}"+f"\n  ┃ Kunci         ┃ {key_input}"+f"\n  ┃ Chipertext    ┃ {ciphertext}"+"\n  ┗━━━━━━━━━━━━━━━━━━━━━┛")
+  # ┏━━━━━━━━━━━⪻ RESULT ⪼━━━━━┓
+  # ┃ Plaintext     ┃ {plaintext}
+  # ┃ Kunci         ┃ {key_input}
+  # ┃ Chipertext    ┃ {ciphertext}
+  # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
