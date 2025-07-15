@@ -1,6 +1,5 @@
 import os
 
-
 # definisi wsrna
 cyan = '\033[96m'
 magenta = '\033[95m'
