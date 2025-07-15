@@ -54,7 +54,7 @@ if __name__ == "__main__":
     ciphertext = encrypt_vigenere_numbers(plaintext, key_numbers)
     print(f" [{biru}•{reset}] Ciphertext :", ciphertext)
     print ("\n   ┏━━━━━━━━━━━⪻ RESULT ⪼━━━━━━━━━━━┓")
-    print ("    ┃ Jenis Teknik Kriptografi ┃ vigenere angka")
+    print ("   ┃ Jenis Teknik Kriptografi ┃ vigenere angka")
     print (f"   ┃ Plaintext     ┃ {plaintext}")
     print (f"   ┃ Kunci         ┃ {key_input}")
     print (f"   ┃ Chipertext    ┃ {ciphertext}")
