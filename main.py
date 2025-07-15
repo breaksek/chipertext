@@ -20,8 +20,6 @@ banner = f"""{cyan}  ____ _     _                 _            _     _____      
  [{hijau}info{reset}] Tools ini menggunakan teknik vigenere angka                      
  [{hijau}info{reset}] Anggota : MUHAMMAD SYARIFUDDIN (2210651057) dan A.RIFALDI AMIN (2310651053)
 """
-
-
 # function
 def encrypt_vigenere_numbers(plaintext, key_numbers):
     ciphertext = ""
